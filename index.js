@@ -17,7 +17,7 @@ const protoLoader = require('@grpc/proto-loader');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
-const UUID = process.env.UUID || 'd1cf4b9c-3e57-085d-b34a-797fcf801380'; // 节点UUID、哪吒的UUID、tg-webproxy的secret
+const UUID = process.env.UUID || '07bece65-88c4-4510-a619-35b784159c71'; // 节点UUID、哪吒的UUID、tg-webproxy的secret
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';       // 仅支持哪吒v1，格式：nz.xxx.com:8008
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             // nz_client_secret密钥
 const DOMAIN = process.env.DOMAIN || 'your-domain.com';    // 项目分配的域名或回源后的域名,例如：xxx.xxx.com
